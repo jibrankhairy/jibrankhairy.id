@@ -1,0 +1,248 @@
+{
+  "HomePage": {
+    "intro": "Hi, I'm Satria Bahari",
+    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "location_type": "Onsite",
+    "resume": "Passionate and seasoned Software Engineer with a strong focus on frontend development. Proficient in TypeScript and well-versed in all aspects of web technologies. Collaborative team player dedicated to delivering efficient, scalable, and visually appealing web applications.",
+    "skills": {
+      "title": "Skills",
+      "sub_title": "My professional skills."
+    },
+    "services": {
+      "title": "Service",
+      "sub_title": "I work as a freelancer to develop exceptional websites for brands, companies, institutions, and startups, focusing on strategic web solutions.",
+      "cta": {
+        "title": "Let's work together!",
+        "sub_title": "I'm open for freelance projects, feel free to email me to see how can we collaborate.",
+        "button": "Contact me"
+      }
+    }
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "A short story of me",
+    "resume": {
+      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I have a strong interest in frontend development. With a solid foundation in JavaScript and TypeScript, as well as a comprehensive understanding of various frontend libraries and frameworks, I have navigated the ever-evolving landscape of web development with enthusiasm and dedication.",
+
+      "paragraf_2": "I focus on creating web applications that not only provide precise experiences but are also user-friendly. My specialization includes JavaScript and TypeScript, along with frameworks such as React, Vite, and Next.js. As a quick learner and adaptive thinker, I thrive in a dynamic environment where innovation is a driving force. My collaborative nature allows me to seamlessly integrate with teams, contributing not only to my technical skills but also embodying a humble attitude that values input from every team member.",
+
+      "paragraf_3": "I strongly believe that effective communication is crucial for success in any role. I am adaptable, think efficiently, and always strive for the best. My experiences have equipped me with analytical skills and strong leadership abilities. I am comfortable working collaboratively in a team and am excited about the opportunity to contribute to team success. Looking forward to the possibility of collaboration!"
+    },
+    "career": {
+      "title": "Career",
+      "sub_title": "My professional career journey.",
+      "careers": {
+        "career_0": {
+          "position": "Head of Technology in the Research and Technology Division",
+          "company": "Himpunan Mahasiswa Sistem Informasi Universitas Jambi (HIMASI UNJA)",
+          "logo": "/images/careers/himasi-unja.jpeg",
+          "location": "Jambi, Indonesia 🇮🇩",
+          "location_type": "Onsite",
+          "type": "Part-time",
+          "start_date": "2024-01",
+          "end_date": null,
+          "industry": "school",
+          "link": "https://himasi.unja.ac.id/"
+        },
+        "career_1": {
+          "position": "Mobile Development Cohort",
+          "company": "Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka",
+          "logo": "/images/careers/bangkit.png",
+          "location": "Bandung, Indonesia 🇮🇩",
+          "location_type": "Remote",
+          "type": "Part-time",
+          "start_date": "2024-12",
+          "end_date": "2025-12",
+          "industry": "school",
+          "link": "https://grow.google/intl/id_id/bangkit/?tab=mobile-development",
+          "responsibilities": {
+            "responsibility_1": "Mastered Android development using Kotlin, Jetpack Components, and modern tools like Room Database and DataStore for state and data management.",
+            "responsibility_2": "Gained hands-on experience with ViewModel, RecyclerView, and Hilt for dependency injection to create robust and scalable mobile applications.",
+            "responsibility_3": "Collaborated with a cross-functional team to develop a Company-Based Capstone Project, applying Agile methodologies and real-world problem-solving.",
+            "responsibility_4": "Enhanced teamwork, problem-solving, and communication skills in a multicultural environment."
+          }
+        },
+        "career_2": {
+          "position": "Mobile Developer",
+          "company": "Pt. Amanah Karya Indonesia (Amanah Corp)",
+          "logo": "/images/careers/amanah-karya-indonesia.jpeg",
+          "location": "Depok, Indonesia 🇮🇩",
+          "location_type": "Remote",
+          "type": "Internship",
+          "start_date": "2024-12",
+          "end_date": "2025-12",
+          "industry": "school",
+          "link": "https://amanahcorp.co.id/",
+          "responsibilities": {
+            "responsibility_1": "Designed and developed a mobile application using Kotlin, incorporating Room Database, Hilt, and ViewModel for optimal performance and scalability.",
+            "responsibility_2": "Implemented secure and user-friendly features tailored to the berbagi.link platform to improve user engagement and accessibility.",
+            "responsibility_3": "Worked closely with PT Amanah Corp to ensure alignment with business objectives and deliver impactful, real-world solutions.",
+            "responsibility_4": "Strengthened technical and soft skills, including problem-solving, teamwork, and communication, in a professional, multicultural setting."
+          }
+        }
+      }
+    },
+    "education": {
+      "title": "Education",
+      "sub_title": "My educational journey.",
+      "school": "Jambi University",
+      "major": "Information Systems, (S.Kom)",
+      "logo": "/images/education/unja.png",
+      "location": "Jambi, Indonesia 🇮🇩",
+      "degree": "Bachelor's degree",
+      "start_year": 2022,
+      "end_year": 2026,
+      "link": "https://www.unja.ac.id"
+    },
+    "resume_download_button": "Download Resume",
+    "portfolio_download_button": "Download Portfolio"
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "A collection of certificates and badges that I have earned throughout my professional journey.",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available.",
+    "show_credential": "Show Credentials"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "Several projects that I have worked on, both private and open source.",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": "This is my personal dashboard, built with Next.js API routes deployed as serverless functions.",
+    "error": "An error occurred on the server.",
+    "github": {
+      "title": "Contributions",
+      "sub_title": "My contributions from last year on github.",
+      "title_total_contribution": "Total",
+      "title_total_this_week_contributino": "This week",
+      "title_best_contribution": "Best",
+      "title_average_contribution": "Average",
+      "title_less_contribution": "Less",
+      "title_more_contribution": "More",
+      "unit": "day"
+    },
+    "wakatime": {
+      "title": "Weekly Statistic",
+      "sub_title": "My WakaTime last 7 days stats.",
+      "last_update": "Last update",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "daily_average": "Daily Coding Average",
+      "daily_total": "This Week Coding Time",
+      "best_day": "Best Day Coding Time",
+      "all_time_since_today": "All Time Since Today",
+      "languages": "Languages"
+    },
+    "codewars": {
+      "title": "Codewars Statistic",
+      "sub_title": "My statistic score on codewars.",
+      "title_rank": "Rank",
+      "title_honor": "Honor",
+      "title_completed": "Completed",
+      "title_leaderboard": "Leaderboard",
+      "title_clan": "Clan",
+      "title_skills": "Skills"
+    },
+    "monkeytype": {
+      "title": "Monkeytype Statistic",
+      "sub_title": "My statistic score on Monkeytype.",
+      "joined": "Joined",
+      "current_streak": "Current streak",
+      "unit_days": "days",
+      "title_test_started": "Test started",
+      "title_test_completed": "Test completed",
+      "title_time_typing": "Time typing",
+      "title_leaderboard": "All-Time English Leaderboards",
+      "unit_seconds": "Seconds",
+      "unit_time": "time",
+      "unit_words": "words",
+      "top": "top",
+      "days_ago": "days ago",
+      "xp_until_next_level": "XP until next level",
+      "total_xp": "total XP"
+    }
+  },
+  "ChatRoomPage": {
+    "title": "Chat Room",
+    "description": "Leave whatever you like to say, suggestions, questions or anything!",
+    "placeholder": "Type a message...",
+    "sign_in": {
+      "title": "Please sign in to start. Don't worry, your data is safe.",
+      "label": "Sign in with",
+      "signed_label": "Signed in as",
+      "sign_out_label": "Sign out"
+    },
+    "widget": {
+      "title": "Chat Room",
+      "tooltip_title": "Go to Chat Room",
+      "tooltip_minimize": "Minimize",
+      "tooltip_signout": "Signout"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Let`s get in touch",
+    "social_media": {
+      "title": "Find me on social media",
+      "gmail": {
+        "title": "Stay in Touch",
+        "description": "Reach out via email for any inquiries or collaborations."
+      },
+      "instagram": {
+        "title": "Follow My Journey",
+        "description": "Stay updated with my latest posts and stories on Instagram."
+      },
+      "linkedin": {
+        "title": "Let's Connect",
+        "description": "Connect for collaboration or explore my professional experience."
+      },
+      "tiktok": {
+        "title": "Join the Fun",
+        "description": "Follow me on TikTok for entertaining and engaging content."
+      },
+      "github": {
+        "title": "Explore the Code",
+        "description": "Explore the source code for all my projects on GitHub."
+      }
+    },
+    "form": {
+      "title": "Or send me a message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_message": "Message",
+      "button": "Send Email"
+    }
+  },
+  "Footer": {
+    "hire": "Hire me.",
+    "copyright_1": "COPYRIGHT © ",
+    "copyright_2": "Satria Bahari. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Achievements": "Achievements",
+    "Projects": "Projects",
+    "Dashboard": "Dashboard",
+    "Chat Room": "Chat Room",
+    "Contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}
