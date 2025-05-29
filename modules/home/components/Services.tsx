@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <section className="space-y-5">
       <div className="space-y-3">
-        <SectionHeading title={t("title")} icon={<ServiceIcon size={24} />} />
+        <SectionHeading title={t("title")} />
         <SectionSubHeading>{t("sub_title")}</SectionSubHeading>
       </div>
       <Card className="space-y-4 p-6">

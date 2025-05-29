@@ -1,8 +1,18 @@
-import { useTranslations } from "next-intl";
+import { Metadata } from "next";
 
+import { useTranslations } from "next-intl";
 import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
 import Achievements from "@/modules/achievements";
+import { METADATA } from "@/common/constants/metadata";
+
+export const metadata: Metadata = {
+  title: `Achievements ${METADATA.exTitle}`,
+  description: `Highlights of ${METADATA.creator}`,
+  alternates: {
+    canonical: `${process.env.DOMAIN}/achievements`,
+  },
+};
 
 const AchievementsPage = () => {
   const t = useTranslations("AchievementsPage");

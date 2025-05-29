@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import SkillCard from "./SkillCard";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
-import SectionSubHeading from "@/common/components/elements/SectionSubHeading";
 import { STACKS } from "@/common/constants/stacks";
 import MarqueeElement from "@/common/components/elements/MarqueeElement";
 
@@ -18,14 +17,11 @@ const SkillList = () => {
   return (
     <section className="space-y-6">
       <div className="space-y-2">
-        <SectionHeading title={t("skills.title")} icon={<SkillsIcon />} />
-        <SectionSubHeading>
-          <p>{t("skills.sub_title")}</p>
-        </SectionSubHeading>
+        <SectionHeading title={t("skills.title")} />
       </div>
 
       <div className="flex flex-col space-y-1 overflow-x-hidden">
-        {Array.from({ length: 2 }, (_, index) => {
+        {Array.from({ length: 3 }, (_, index) => {
           const slider = [...stacksInArray].sort(() => Math.random() - 0.5);
           return (
             <MarqueeElement

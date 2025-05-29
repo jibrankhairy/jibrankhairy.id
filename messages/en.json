@@ -1,16 +1,15 @@
 {
   "HomePage": {
-    "intro": "Hi, I'm Satria Bahari",
-    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "intro": "Hi, I'm Jibran",
+    "location": "Based in Bekasi, Indonesia 🇮🇩",
     "location_type": "Onsite",
-    "resume": "Passionate and seasoned Software Engineer with a strong focus on frontend development. Proficient in TypeScript and well-versed in all aspects of web technologies. Collaborative team player dedicated to delivering efficient, scalable, and visually appealing web applications.",
+    "resume": "Passionate and seasoned Software Engineer with a strong focus on frontend development. I work with JavaScript and TypeScript and specialize in all-things web. I thrive on collaborating with teams to deliver efficient, scalable, and visually appealing web applications.",
     "skills": {
-      "title": "Skills",
-      "sub_title": "My professional skills."
+      "title": "Tools that I have used"
     },
     "services": {
       "title": "Service",
-      "sub_title": "I work as a freelancer to develop exceptional websites for brands, companies, institutions, and startups, focusing on strategic web solutions.",
+      "sub_title": "I work as a freelancer, developing exceptional websites for brands, companies, institutions, and startups, with a focus on strategic web solutions.",
       "cta": {
         "title": "Let's work together!",
         "sub_title": "I'm open for freelance projects, feel free to email me to see how can we collaborate.",
@@ -20,64 +19,71 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "A short story of me",
+    "description": "A thoughtful reflection of who I am – as every detail contributes to the masterpiece of life.",
     "resume": {
-      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I have a strong interest in frontend development. With a solid foundation in JavaScript and TypeScript, as well as a comprehensive understanding of various frontend libraries and frameworks, I have navigated the ever-evolving landscape of web development with enthusiasm and dedication.",
+      "paragraf_1": "Hello! Thanks for stopping by my personal website.I'm Jibran Khairy Akram, a Computer Engineering and Informatics student at Jakarta State Polytechnic, majoring in Multimedia and Network Engineering. I'm passionate about frontend development, with a strong foundation in JavaScript and TypeScript. My experience with various frontend libraries and frameworks has allowed me to navigate the ever-evolving world of web development with enthusiasm and dedication.",
 
-      "paragraf_2": "I focus on creating web applications that not only provide precise experiences but are also user-friendly. My specialization includes JavaScript and TypeScript, along with frameworks such as React, Vite, and Next.js. As a quick learner and adaptive thinker, I thrive in a dynamic environment where innovation is a driving force. My collaborative nature allows me to seamlessly integrate with teams, contributing not only to my technical skills but also embodying a humble attitude that values input from every team member.",
+      "paragraf_2": "I specialize in building web applications that are intuitive, user-friendly, and deliver consistent, high-quality experiences. My core tech stack includes JavaScript and TypeScript, with hands-on experience in modern frameworks like React, Vite, and Next.js. As a fast learner and adaptive problem-solver, I thrive in dynamic, fast-paced environments where innovation is key. I’m a collaborative team player who values feedback and brings a humble, growth-oriented mindset to every project.",
 
-      "paragraf_3": "I strongly believe that effective communication is crucial for success in any role. I am adaptable, think efficiently, and always strive for the best. My experiences have equipped me with analytical skills and strong leadership abilities. I am comfortable working collaboratively in a team and am excited about the opportunity to contribute to team success. Looking forward to the possibility of collaboration!"
+      "paragraf_3": "I firmly believe that strong communication leads to great results. I'm adaptable, think efficiently, and always strive to do my best. Throughout my journey, I’ve developed solid analytical and leadership skills, and I truly enjoy working collaboratively to achieve shared goals. I'm excited about future opportunities to grow and contribute through meaningful collaboration."
     },
     "career": {
       "title": "Career",
       "sub_title": "My professional career journey.",
       "careers": {
         "career_0": {
-          "position": "Head of Technology in the Research and Technology Division",
-          "company": "Himpunan Mahasiswa Sistem Informasi Universitas Jambi (HIMASI UNJA)",
-          "logo": "/images/careers/himasi-unja.jpeg",
-          "location": "Jambi, Indonesia 🇮🇩",
-          "location_type": "Onsite",
-          "type": "Part-time",
-          "start_date": "2024-01",
-          "end_date": null,
-          "industry": "school",
-          "link": "https://himasi.unja.ac.id/"
+          "position": "Project Leader & Full Stack Mobile Developer",
+          "company": "Bit House",
+          "logo": "/images/careers/bithouse.jpg",
+          "location": "Bali, Indonesia 🇮🇩",
+          "location_type": "Remote",
+          "type": "Project Based",
+          "start_date": "2025-03",
+          "end_date": "2025-06",
+          "industry": "Technology",
+          "link": "https://bithouse.id/",
+          "responsibilities": {
+            "responsibility_1": "Led a cross-functional team in collaboration with Bithouse to solve real-world problems through IoT and mobile technology.",
+            "responsibility_2": "Developed a native Android application using Kotlin for real-time interaction with IoT hardware.",
+            "responsibility_3": "Built and maintained backend services using Express.js and integrated with Firebase Realtime Database.",
+            "responsibility_4": "Deployed RESTful APIs on Google Cloud Platform (GCP) for scalable and secure mobile access.",
+            "responsibility_5": "Coordinated with team members responsible for hardware assembly, ESP32 programming, and sensor integration."
+          }
         },
         "career_1": {
-          "position": "Mobile Development Cohort",
-          "company": "Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka",
-          "logo": "/images/careers/bangkit.png",
-          "location": "Bandung, Indonesia 🇮🇩",
+          "position": "Junior Genesys Cloud Administrator",
+          "company": "PT. Solusi Tiga Selaras",
+          "logo": "/images/careers/Solutif.jpeg",
+          "location": "Jakarta, Indonesia 🇮🇩",
           "location_type": "Remote",
-          "type": "Part-time",
-          "start_date": "2024-12",
-          "end_date": "2025-12",
-          "industry": "school",
-          "link": "https://grow.google/intl/id_id/bangkit/?tab=mobile-development",
+          "type": "Internship",
+          "start_date": "2024-09",
+          "end_date": "2024-12",
+          "industry": "Technology",
+          "link": "https://www.solutif.co.id/",
           "responsibilities": {
-            "responsibility_1": "Mastered Android development using Kotlin, Jetpack Components, and modern tools like Room Database and DataStore for state and data management.",
-            "responsibility_2": "Gained hands-on experience with ViewModel, RecyclerView, and Hilt for dependency injection to create robust and scalable mobile applications.",
-            "responsibility_3": "Collaborated with a cross-functional team to develop a Company-Based Capstone Project, applying Agile methodologies and real-world problem-solving.",
-            "responsibility_4": "Enhanced teamwork, problem-solving, and communication skills in a multicultural environment."
+            "responsibility_1": "Implemented Genesys Cloud features (call routing, user management, monitoring) to streamline operations.",
+            "responsibility_2": "Configured BYOC for telephony integration, supporting flexible communication setups.",
+            "responsibility_3": "Optimized workflows to improve call flow efficiency and simulate real-world contact center scenarios.",
+            "responsibility_4": "Reduced routing response time by 60% (from 5s to 2s) through DID and queue configuration, ensuring high system availability."
           }
         },
         "career_2": {
-          "position": "Mobile Developer",
-          "company": "Pt. Amanah Karya Indonesia (Amanah Corp)",
-          "logo": "/images/careers/amanah-karya-indonesia.jpeg",
-          "location": "Depok, Indonesia 🇮🇩",
-          "location_type": "Remote",
+          "position": "Human Capital Management",
+          "company": "PT. Niramas Utama",
+          "logo": "/images/careers/niramas.jpg",
+          "location": "Bekasi, Indonesia 🇮🇩",
+          "location_type": "Onsite",
           "type": "Internship",
-          "start_date": "2024-12",
-          "end_date": "2025-12",
-          "industry": "school",
-          "link": "https://amanahcorp.co.id/",
+          "start_date": "2020-07",
+          "end_date": "2021-01",
+          "industry": "Food and Beverage",
+          "link": "https://www.inacofood.com/",
           "responsibilities": {
-            "responsibility_1": "Designed and developed a mobile application using Kotlin, incorporating Room Database, Hilt, and ViewModel for optimal performance and scalability.",
-            "responsibility_2": "Implemented secure and user-friendly features tailored to the berbagi.link platform to improve user engagement and accessibility.",
-            "responsibility_3": "Worked closely with PT Amanah Corp to ensure alignment with business objectives and deliver impactful, real-world solutions.",
-            "responsibility_4": "Strengthened technical and soft skills, including problem-solving, teamwork, and communication, in a professional, multicultural setting."
+            "responsibility_1": "Managed employee data entry into the HRIS, including leave records, sick days, permissions, and contract updates, ensuring data accuracy and consistency.",
+            "responsibility_2": "Assisted in the contract signing process and maintained internal employee correspondence to support HR operations.",
+            "responsibility_3": "Collaborated with the Human Capital team to manage employee relations and administrative processes.",
+            "responsibility_4": "Handled data entry of over 150 employee records into the HRIS, ensuring error-free and well-organized administrative processes."
           }
         }
       }
@@ -85,28 +91,26 @@
     "education": {
       "title": "Education",
       "sub_title": "My educational journey.",
-      "school": "Jambi University",
-      "major": "Information Systems, (S.Kom)",
-      "logo": "/images/education/unja.png",
-      "location": "Jambi, Indonesia 🇮🇩",
-      "degree": "Bachelor's degree",
+      "school": "Politeknik Negeri Jakarta",
+      "major": "Multimedia and Network Engineering, (S.Tr)",
+      "logo": "/images/education/pnj.jpg",
+      "location": "Depok, Indonesia 🇮🇩",
+      "degree": "Applied Bachelor's Degree",
       "start_year": 2022,
       "end_year": 2026,
-      "link": "https://www.unja.ac.id"
-    },
-    "resume_download_button": "Download Resume",
-    "portfolio_download_button": "Download Portfolio"
+      "link": "https://pnj.ac.id/"
+    }
   },
   "AchievementsPage": {
     "title": "Achievements",
-    "description": "A collection of certificates and badges that I have earned throughout my professional journey.",
+    "description": "Certificates I’ve obtained during my career path.",
     "error": "An error occurred on the server.",
     "no_data": "No data available.",
     "show_credential": "Show Credentials"
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "Several projects that I have worked on, both private and open source.",
+    "description": "Projects that showcase my development experience.",
     "view_project": "View Project",
     "tech_stack": "Tech Stack",
     "back_button": "Back",
@@ -117,7 +121,7 @@
   },
   "DashboardPage": {
     "title": "Dashboard",
-    "description": "This is my personal dashboard, built with Next.js API routes deployed as serverless functions.",
+    "description": "A snapshot of my daily activity and productivity.",
     "error": "An error occurred on the server.",
     "github": {
       "title": "Contributions",
@@ -141,51 +145,6 @@
       "best_day": "Best Day Coding Time",
       "all_time_since_today": "All Time Since Today",
       "languages": "Languages"
-    },
-    "codewars": {
-      "title": "Codewars Statistic",
-      "sub_title": "My statistic score on codewars.",
-      "title_rank": "Rank",
-      "title_honor": "Honor",
-      "title_completed": "Completed",
-      "title_leaderboard": "Leaderboard",
-      "title_clan": "Clan",
-      "title_skills": "Skills"
-    },
-    "monkeytype": {
-      "title": "Monkeytype Statistic",
-      "sub_title": "My statistic score on Monkeytype.",
-      "joined": "Joined",
-      "current_streak": "Current streak",
-      "unit_days": "days",
-      "title_test_started": "Test started",
-      "title_test_completed": "Test completed",
-      "title_time_typing": "Time typing",
-      "title_leaderboard": "All-Time English Leaderboards",
-      "unit_seconds": "Seconds",
-      "unit_time": "time",
-      "unit_words": "words",
-      "top": "top",
-      "days_ago": "days ago",
-      "xp_until_next_level": "XP until next level",
-      "total_xp": "total XP"
-    }
-  },
-  "ChatRoomPage": {
-    "title": "Chat Room",
-    "description": "Leave whatever you like to say, suggestions, questions or anything!",
-    "placeholder": "Type a message...",
-    "sign_in": {
-      "title": "Please sign in to start. Don't worry, your data is safe.",
-      "label": "Sign in with",
-      "signed_label": "Signed in as",
-      "sign_out_label": "Sign out"
-    },
-    "widget": {
-      "title": "Chat Room",
-      "tooltip_title": "Go to Chat Room",
-      "tooltip_minimize": "Minimize",
-      "tooltip_signout": "Signout"
     }
   },
   "ContactPage": {
@@ -194,24 +153,24 @@
     "social_media": {
       "title": "Find me on social media",
       "gmail": {
-        "title": "Stay in Touch",
-        "description": "Reach out via email for any inquiries or collaborations."
+        "title": "Get in Touch",
+        "description": "Feel free to email me for questions, ideas, or collaborations."
       },
       "instagram": {
-        "title": "Follow My Journey",
+        "title": "Follow My Activity",
         "description": "Stay updated with my latest posts and stories on Instagram."
       },
       "linkedin": {
         "title": "Let's Connect",
-        "description": "Connect for collaboration or explore my professional experience."
+        "description": "Discover my career journey or reach out for potential opportunities."
       },
       "tiktok": {
-        "title": "Join the Fun",
-        "description": "Follow me on TikTok for entertaining and engaging content."
+        "title": "Let’s Hang Out",
+        "description": "join me on TikTok for casual content, fun clips, and snippets of my daily life."
       },
       "github": {
-        "title": "Explore the Code",
-        "description": "Explore the source code for all my projects on GitHub."
+        "title": "Dive into My Code",
+        "description": "Check out the source code and contributions to my projects on GitHub."
       }
     },
     "form": {
@@ -225,7 +184,7 @@
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",
-    "copyright_2": "Satria Bahari. All rights reserved."
+    "copyright_2": "jibrankhry. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",

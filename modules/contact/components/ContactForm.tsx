@@ -21,7 +21,7 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm<FormEmail>();
   const [isLoading, setIsLoading] = useState(false);
-  const [buttonText, setButtonText] = useState("Send Email");
+  const [buttonText, setButtonText] = useState("l");
   const [isSuccess, setIsSuccess] = useState(false);
 
   const t = useTranslations("ContactPage");

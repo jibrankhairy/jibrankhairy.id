@@ -1,16 +1,16 @@
 export const METADATA = {
-  creator: "Satria Bahari",
-  description: "Personal website, portfolio, blog",
-  keyword: "satria, satria bahari",
+  creator: "jibrankhry",
+  description:
+    "Portfolio pribadi Jibran Khairy Akram – Web developer, software engineer",
+  keyword: "jibran, jibran khairy, jibran khairy akram",
   authors: {
-    name: "Satria Bahari",
+    name: "Jibran Khairy Akram",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "Satria Bahari",
+    siteName: "jibrankhairy.id",
     locale: "id-ID",
   },
-  exTitle: "| Satria Bahari",
-  profile: "/images/satria.jpg",
+  exTitle: "| Jibran Khairy",
 };

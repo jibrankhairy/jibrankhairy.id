@@ -14,7 +14,7 @@ export const POST = async (request: Request) => {
   const body = await request.json();
   const { name, email, message } = body;
 
-  if (!message || !name || !message) {
+  if (!name || !email || !message) {
     return NextResponse.json(
       { message: "Please fill out the necessary fields" },
       { status: 400 },
@@ -23,26 +23,28 @@ export const POST = async (request: Request) => {
 
   const mailData = {
     from: email,
-    to: "satriaaxel7703@gmail.com",
+    to: "jibrankhairyy@gmail.com",
     subject: `Message from ${name}`,
     text: `${message} | Sent from: ${email}`,
     html: `<div>${message}</div><p>Sent from: ${email}</p>`,
   };
 
-  await new Promise((resolve, reject) => {
-    transporter.sendMail(mailData, (err: Error | null, info) => {
-      if (err) {
-        reject(err);
-        return NextResponse.json(
-          { error: err.message || "Something went wrong" },
-          { status: 500 },
-        );
-      } else {
-        resolve(info.accepted);
-        NextResponse.json({ message: "Message sent!" }, { status: 200 });
-      }
+  try {
+    await new Promise((resolve, reject) => {
+      transporter.sendMail(mailData, (err, info) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(info);
+        }
+      });
     });
-  });
 
-  return NextResponse.json({ message: "berhasil" });
+    return NextResponse.json({ message: "Message sent!" }, { status: 200 });
+  } catch (err: any) {
+    return NextResponse.json(
+      { error: err.message || "Something went wrong" },
+      { status: 500 },
+    );
+  }
 };

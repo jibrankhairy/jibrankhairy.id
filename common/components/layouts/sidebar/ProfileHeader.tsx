@@ -14,6 +14,8 @@ interface ProfileHeaderProps {
 }
 
 const ProfileHeader = ({ expandMenu, imageSize }: ProfileHeaderProps) => {
+  const adjustedSize = expandMenu ? 80 : imageSize * 1.1;
+
   return (
     <div
       className={clsx(
@@ -21,33 +23,35 @@ const ProfileHeader = ({ expandMenu, imageSize }: ProfileHeaderProps) => {
         expandMenu && "flex-col !items-start",
       )}
     >
-      {/* Bermasalah (bug) */}
       <Image
-        src={"/images/satria.jpg"}
-        width={expandMenu ? 80 : imageSize * 0.9}
-        height={expandMenu ? 80 : imageSize * 0.9}
-        alt="Satria Bahari"
-        className="border-2 border-neutral-400 dark:border-neutral-600 lg:hover:scale-105"
-        rounded="rounded-full"
+        src="/images/jibran.jpg"
+        width={adjustedSize}
+        height={adjustedSize}
+        className={clsx(
+          "border-2 border-neutral-400 transition-transform duration-300 dark:border-neutral-600",
+          "rounded-full",
+          "lg:hover:scale-105",
+        )}
+        alt="Jibran Khairy Akram"
       />
 
-      <div className="mt-1 flex items-center gap-2 lg:mt-4">
-        <Link href="/" passHref>
-          <h2 className="flex-grow text-lg font-medium lg:text-xl">
-            Satria Bahari
-          </h2>
-        </Link>
-
-        <Tooltip title="Verified">
-          <VerifiedIcon size={18} className="text-blue-400" />
-        </Tooltip>
+      <div className="flex flex-col">
+        <div className="flex items-center space-x-1">
+          <Link href="/" className="flex items-center space-x-1">
+            <span className="text-sm font-medium hover:underline lg:text-xl">
+              Jibran Khairy Akram
+            </span>
+            <Tooltip title="Verified" aria-label="Verified account">
+              <VerifiedIcon size={18} className="text-blue-400" />
+            </Tooltip>
+          </Link>
+        </div>
+        <span className="hidden text-sm text-neutral-600 dark:text-neutral-500 lg:block">
+          @jibrankhry
+        </span>
       </div>
 
-      <div className="hidden text-sm text-neutral-600 transition-all duration-300 hover:text-neutral-700 dark:text-neutral-500 dark:hover:text-neutral-400 lg:flex">
-        @satriabahari
-      </div>
-
-      <div className="hidden w-full items-center justify-between lg:mt-2 lg:flex">
+      <div className="hidden w-full items-center justify-between gap-2 lg:mt-2 lg:flex">
         <Status />
         <div className="flex gap-4">
           <LocaleSwitcher />

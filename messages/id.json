@@ -1,12 +1,11 @@
 {
   "HomePage": {
-    "intro": "Hai, saya Satria Bahari",
-    "location": "Berasal dari Jambi, Indonesia 🇮🇩",
+    "intro": "Hai, saya Jibran",
+    "location": "Berasal dari Bekasi, Indonesia 🇮🇩",
     "location_type": "Di lokasi",
-    "resume": "Insinyur Perangkat Lunak yang bersemangat dan berpengalaman dengan fokus kuat pada pengembangan frontend. Mahir dalam TypeScript dan berpengalaman dalam semua aspek teknologi web. Pemain tim kolaboratif yang berdedikasi untuk memberikan aplikasi web yang efisien, skalabel, dan menarik secara visual.",
+    "resume": "Insinyur Perangkat Lunak yang bersemangat dan berpengalaman dengan fokus kuat pada pengembangan frontend. Saya bekerja dengan JavaScript dan TypeScript dan mengkhususkan diri dalam semua hal yang berhubungan dengan web. Saya senang berkolaborasi dengan tim untuk memberikan aplikasi web yang efisien, dapat diskalakan, dan menarik secara visual.",
     "skills": {
-      "title": "Keahlian",
-      "sub_title": "Keahlian profesional saya."
+      "title": "Alat yang telah saya gunakan"
     },
     "services": {
       "title": "Layanan",
@@ -20,64 +19,71 @@
   },
   "AboutPage": {
     "title": "Tentang",
-    "description": "Cerita singkat tentang saya",
+    "description": "Sebuah refleksi penuh makna tentang siapa saya – karena setiap detail berkontribusi pada mahakarya kehidupan.",
     "resume": {
-      "paragraf_1": "Halo! Terima kasih telah mengunjungi situs pribadi saya. Saya Satria Bahari, seorang mahasiswa Sistem Informasi di Universitas Jambi. Saya sangat tertarik dengan pengembangan frontend. Dengan dasar yang kuat dalam JavaScript dan TypeScript, serta pemahaman komprehensif tentang berbagai pustaka dan kerangka kerja frontend, saya telah menjelajahi lanskap pengembangan web yang selalu berkembang dengan antusiasme dan dedikasi.",
+      "paragraf_1": "Halo! Terima kasih telah mengunjungi situs web pribadi saya. Saya Jibran Khairy Akram, mahasiswa Teknik Komputer dan Informatika di Politeknik Negeri Jakarta, jurusan Teknik Multimedia dan Jaringan. Saya sangat menyukai pengembangan frontend, dengan dasar yang kuat dalam JavaScript dan TypeScript. Pengalaman saya dengan berbagai pustaka dan kerangka kerja frontend telah memungkinkan saya menjelajahi dunia pengembangan web yang terus berkembang dengan antusiasme dan dedikasi.",
 
-      "paragraf_2": "Saya fokus pada pembuatan aplikasi web yang tidak hanya memberikan pengalaman yang akurat tetapi juga ramah pengguna. Spesialisasi saya meliputi JavaScript dan TypeScript, bersama dengan kerangka kerja seperti React, Vite, dan Next.js. Sebagai pembelajar cepat dan pemikir adaptif, saya berkembang dalam lingkungan dinamis di mana inovasi adalah kekuatan pendorong. Sifat kolaboratif saya memungkinkan saya untuk berintegrasi dengan tim, tidak hanya menyumbangkan keterampilan teknis saya tetapi juga memiliki sikap rendah hati yang menghargai masukan dari setiap anggota tim.",
+      "paragraf_2": "Saya memiliki keahlian dalam membangun aplikasi web yang intuitif, mudah digunakan, dan mampu memberikan pengalaman yang konsisten serta berkualitas tinggi. Teknologi utama yang saya gunakan meliputi JavaScript dan TypeScript, dengan pengalaman langsung menggunakan framework modern seperti React, Vite, dan Next.js. Sebagai pembelajar cepat dan pemecah masalah yang adaptif, saya berkembang dengan baik di lingkungan yang dinamis dan berorientasi pada inovasi. Saya juga seorang pemain tim yang kolaboratif, terbuka terhadap masukan, dan selalu membawa sikap rendah hati serta semangat untuk terus berkembang dalam setiap proyek yang saya kerjakan.",
 
-      "paragraf_3": "Saya sangat percaya bahwa komunikasi yang efektif adalah kunci sukses dalam peran apa pun. Saya adaptif, berpikir efisien, dan selalu berusaha untuk yang terbaik. Pengalaman saya telah membekali saya dengan keterampilan analitis dan kemampuan kepemimpinan yang kuat. Saya nyaman bekerja secara kolaboratif dalam tim dan sangat antusias dengan kesempatan untuk berkontribusi pada kesuksesan tim. Saya menantikan kemungkinan untuk berkolaborasi!"
+      "paragraf_3": "Saya percaya bahwa komunikasi yang baik menghasilkan hasil yang luar biasa. Saya mudah beradaptasi, berpikir secara efisien, dan selalu berusaha memberikan yang terbaik. Sepanjang perjalanan saya, saya telah mengembangkan kemampuan analisis dan kepemimpinan yang solid. Saya sangat menikmati kerja tim untuk mencapai tujuan bersama dan antusias menyambut peluang kolaborasi yang bermakna di masa depan."
     },
     "career": {
       "title": "Karier",
       "sub_title": "Perjalanan karier profesional saya.",
       "careers": {
         "career_0": {
-          "position": "Kepala Teknologi di Divisi Riset dan Teknologi",
-          "company": "Himpunan Mahasiswa Sistem Informasi Universitas Jambi (HIMASI UNJA)",
-          "logo": "/images/careers/himasi-unja.jpeg",
-          "location": "Jambi, Indonesia 🇮🇩",
-          "location_type": "Di Tempat",
-          "type": "Paruh Waktu",
-          "start_date": "2024-01",
-          "end_date": null,
-          "industry": "sekolah",
-          "link": "https://himasi.unja.ac.id/"
+          "position": "Project Leader & Full Stack Mobile Developer",
+          "company": "Bit House",
+          "logo": "/images/careers/bithouse.jpg",
+          "location": "Bali, Indonesia 🇮🇩",
+          "location_type": "Jarak Jauh",
+          "type": "Berbasis Proyek",
+          "start_date": "2025-03",
+          "end_date": "2025-06",
+          "industry": "Teknologi",
+          "link": "https://bithouse.id/",
+          "responsibilities": {
+            "responsibility_1": "Memimpin tim lintas fungsi bekerja sama dengan Bithouse untuk memecahkan masalah dunia nyata melalui IoT dan teknologi seluler.",
+            "responsibility_2": "Mengembangkan aplikasi Android asli menggunakan Kotlin untuk interaksi waktu nyata dengan perangkat keras IoT.",
+            "responsibility_3": "Membangun dan memelihara layanan backend menggunakan Express.js dan terintegrasi dengan Firebase Realtime Database.",
+            "responsibility_4": "Menerapkan RESTful API pada Google Cloud Platform (GCP) untuk akses seluler yang aman dan terukur.",
+            "responsibility_5": "Berkoordinasi dengan anggota tim yang bertanggung jawab atas perakitan perangkat keras, pemrograman ESP32, dan integrasi sensor."
+          }
         },
         "career_1": {
-          "position": "Kohort Pengembangan Mobile",
-          "company": "Bangkit Academy yang dipimpin oleh Google, Tokopedia, Gojek & Traveloka",
-          "logo": "/images/careers/bangkit.png",
-          "location": "Bandung, Indonesia 🇮🇩",
+          "position": "Junior Genesys Cloud Administrator",
+          "company": "PT. Solusi Tiga Selaras",
+          "logo": "/images/careers/Solutif.jpeg",
+          "location": "Jakarta, Indonesia 🇮🇩",
           "location_type": "Jarak Jauh",
-          "type": "Paruh Waktu",
-          "start_date": "2024-12",
-          "end_date": "2025-12",
-          "industry": "sekolah",
-          "link": "https://grow.google/intl/id_id/bangkit/?tab=mobile-development",
+          "type": "Magang",
+          "start_date": "2024-09",
+          "end_date": "2024-12",
+          "industry": "Teknologi",
+          "link": "https://www.solutif.co.id/",
           "responsibilities": {
-            "responsibility_1": "Menguasai pengembangan Android menggunakan Kotlin, Komponen Jetpack, dan alat modern seperti Room Database dan DataStore untuk manajemen status dan data.",
-            "responsibility_2": "Mendapatkan pengalaman langsung dengan ViewModel, RecyclerView, dan Hilt untuk injeksi ketergantungan untuk membuat aplikasi mobile yang kuat dan dapat diskalakan.",
-            "responsibility_3": "Berkolaborasi dengan tim lintas fungsi untuk mengembangkan Proyek Capstone Berbasis Perusahaan, menerapkan metodologi Agile dan pemecahan masalah dunia nyata.",
-            "responsibility_4": "Meningkatkan keterampilan kerja tim, pemecahan masalah, dan komunikasi dalam lingkungan multikultural."
+            "responsibility_1": "Mengimplementasikan fitur Genesys Cloud (call routing, manajemen pengguna, monitoring) untuk menyederhanakan operasional.",
+            "responsibility_2": "Mengonfigurasi BYOC untuk integrasi sistem telepon, mendukung fleksibilitas infrastruktur komunikasi.",
+            "responsibility_3": "Mengoptimalkan alur kerja untuk meningkatkan efisiensi call flow dalam simulasi skenario contact center nyata.",
+            "responsibility_4": "Mengurangi waktu respons perutean hingga 60% (dari 5 detik menjadi 2 detik) melalui konfigurasi DID dan antrean, memastikan ketersediaan sistem yang tinggi."
           }
         },
         "career_2": {
-          "position": "Pengembang Mobile",
-          "company": "Pt. Amanah Karya Indonesia (Amanah Corp)",
-          "logo": "/images/careers/amanah-karya-indonesia.jpeg",
-          "location": "Depok, Indonesia 🇮🇩",
-          "location_type": "Jarak Jauh",
+          "position": "Human Capital Management",
+          "company": "PT. Niramas Utama",
+          "logo": "/images/careers/niramas.jpg",
+          "location": "Bekasi, Indonesia 🇮🇩",
+          "location_type": "Di Tempat",
           "type": "Magang",
           "start_date": "2024-12",
           "end_date": "2025-12",
-          "industry": "sekolah",
-          "link": "https://amanahcorp.co.id/",
+          "industry": "Makanan dan Minuman",
+          "link": "https://www.inacofood.com/",
           "responsibilities": {
-            "responsibility_1": "Merancang dan mengembangkan aplikasi mobile menggunakan Kotlin, menggabungkan Room Database, Hilt, dan ViewModel untuk kinerja dan skalabilitas yang optimal.",
-            "responsibility_2": "Menerapkan fitur yang aman dan ramah pengguna yang disesuaikan dengan platform berbagi.link untuk meningkatkan keterlibatan dan aksesibilitas pengguna.",
-            "responsibility_3": "Bekerja sama dengan PT Amanah Corp untuk memastikan keselarasan dengan tujuan bisnis dan memberikan solusi dunia nyata yang berdampak.",
-            "responsibility_4": "Memperkuat keterampilan teknis dan keterampilan lunak, termasuk pemecahan masalah, kerja tim, dan komunikasi, dalam lingkungan profesional yang multikultural."
+            "responsibility_1": "Mengelola entri data karyawan ke dalam HRIS, termasuk catatan cuti, cuti sakit, izin, dan pembaruan kontrak, memastikan keakuratan dan konsistensi data.",
+            "responsibility_2": "Membantu dalam proses penandatanganan kontrak dan memelihara korespondensi internal karyawan untuk mendukung operasi SDM.",
+            "responsibility_3": "Berkolaborasi dengan tim Sumber Daya Manusia untuk mengelola hubungan karyawan dan proses administrasi.",
+            "responsibility_4": "Menangani entri data lebih dari 150 catatan karyawan ke dalam HRIS, memastikan proses administratif bebas kesalahan dan terorganisir dengan baik."
           }
         }
       }
@@ -85,28 +91,26 @@
     "education": {
       "title": "Pendidikan",
       "sub_title": "Perjalanan pendidikan saya.",
-      "school": "Universitas Jambi",
-      "major": "Sistem Informasi, (S.Kom)",
-      "logo": "/images/education/unja.png",
-      "location": "Jambi, Indonesia 🇮🇩",
-      "degree": "Gelar Sarjana",
+      "school": "Politeknik Negeri Jakarta",
+      "major": "Teknik Multimedia dan Jaringan, (S.Tr)",
+      "logo": "/images/education/pnj.jpg",
+      "location": "Depok, Indonesia 🇮🇩",
+      "degree": "Sarjana Terapan",
       "start_year": 2022,
       "end_year": 2026,
-      "link": "https://www.unja.ac.id"
-    },
-    "resume_download_button": "Unduh Resume",
-    "portfolio_download_button": "Unduh Portofolio"
+      "link": "https://pnj.ac.id/"
+    }
   },
   "AchievementsPage": {
     "title": "Prestasi",
-    "description": "Koleksi sertifikat dan lencana yang saya dapatkan sepanjang perjalanan profesional saya.",
+    "description": "Sertifikat yang saya peroleh selama perjalanan karir saya.",
     "error": "Terjadi kesalahan di server.",
     "no_data": "Tidak ada data yang tersedia",
     "show_credential": "Tampilkan Kredensial"
   },
   "ProjectsPage": {
     "title": "Proyek",
-    "description": "Beberapa proyek yang telah saya kerjakan, baik pribadi maupun sumber terbuka.",
+    "description": "Proyek yang menampilkan pengalaman pengembangan saya.",
     "view_project": "Lihat Proyek",
     "tech_stack": "Tumpukan Teknologi",
     "back_button": "Kembali",
@@ -117,7 +121,7 @@
   },
   "DashboardPage": {
     "title": "Dasbor",
-    "description": "Ini adalah dasbor pribadi saya, dibangun dengan jalur API Next.js yang diterapkan sebagai fungsi serverless.",
+    "description": "Gambaran singkat aktivitas dan produktivitas saya sehari-hari.",
     "error": "Terjadi kesalahan di server.",
     "github": {
       "title": "Kontribusi",
@@ -141,51 +145,6 @@
       "best_day": "Hari Terbaik Waktu Coding",
       "all_time_since_today": "Total Waktu Sejak Hari Ini",
       "languages": "Bahasa Pemrograman"
-    },
-    "codewars": {
-      "title": "Statistik Codewars",
-      "sub_title": "Skor statistik saya di Codewars.",
-      "title_rank": "Peringkat",
-      "title_honor": "Kehormatan",
-      "title_completed": "Selesai",
-      "title_leaderboard": "Papan Peringkat",
-      "title_clan": "Klan",
-      "title_skills": "Keterampilan"
-    },
-    "monkeytype": {
-      "title": "Statistik Monkeytype",
-      "sub_title": "Skor statistik saya di Monkeytype.",
-      "joined": "Bergabung",
-      "current_streak": "Rekor saat ini",
-      "unit_days": "hari",
-      "title_test_started": "Tes dimulai",
-      "title_test_completed": "Tes selesai",
-      "title_time_typing": "Waktu mengetik",
-      "title_leaderboard": "Papan Peringkat Bahasa Inggris",
-      "unit_seconds": "Detik",
-      "unit_time": "detik",
-      "unit_words": "kata",
-      "top": "teratas",
-      "days_ago": "hari yang lalu",
-      "xp_until_next_level": "XP sampai level berikutnya",
-      "total_xp": "jumlah XP"
-    }
-  },
-  "ChatRoomPage": {
-    "title": "Ruang Obrolan",
-    "description": "Tinggalkan apa pun yang ingin anda katakan, saran, pertanyaan, atau apa pun!",
-    "placeholder": "Ketik pesan...",
-    "sign_in": {
-      "title": "Silakan masuk untuk memulai. Jangan khawatir, data anda aman.",
-      "label": "Masuk dengan",
-      "signed_label": "Masuk sebagai",
-      "sign_out_label": "Keluar"
-    },
-    "widget": {
-      "title": "Ruang Obrolan",
-      "tooltip_title": "Pergi ke Ruang Obrolan",
-      "tooltip_minimize": "Perkecil",
-      "tooltip_signout": "Keluar"
     }
   },
   "ContactPage": {
@@ -194,24 +153,24 @@
     "social_media": {
       "title": "Temukan saya di media sosial",
       "gmail": {
-        "title": "Tetap Berhubungan",
-        "description": "Hubungi melalui email untuk pertanyaan atau kolaborasi."
+        "title": "Hubungi Saya",
+        "description": "Silakan kirim email untuk pertanyaan, ide, atau kolaborasi."
       },
       "instagram": {
-        "title": "Ikuti Perjalanan Saya",
-        "description": "Tetap diperbarui dengan posting dan cerita terbaru saya di Instagram."
+        "title": "Ikuti Aktivitas Saya",
+        "description": "Tetap dapatkan informasi terbaru tentang postingan dan cerita terbaru saya di Instagram."
       },
       "linkedin": {
         "title": "Mari Terhubung",
-        "description": "Terhubung untuk kolaborasi atau jelajahi pengalaman profesional saya."
+        "description": "Temukan perjalanan karier saya atau raih peluang potensial."
       },
       "tiktok": {
-        "title": "Bergabunglah dalam Keseruan",
-        "description": "Ikuti saya di TikTok untuk konten yang menghibur dan menarik."
+        "title": "Yuk Seru-Seruan Bareng",
+        "description": "Ikuti aku di TikTok untuk konten santai, video seru, dan cuplikan aktivitas sehari-hari."
       },
       "github": {
-        "title": "Jelajahi Kode",
-        "description": "Jelajahi kode sumber untuk semua proyek saya di GitHub."
+        "title": "Selami Kode Saya",
+        "description": "Lihat kode sumber dan kontribusi untuk proyek saya di GitHub."
       }
     },
     "form": {
@@ -225,7 +184,7 @@
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "Hak Cipta © ",
-    "copyright_2": "Satria Bahari. Semua hak dilindungi."
+    "copyright_2": "jibrankhry. Semua hak dilindungi."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",

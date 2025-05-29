@@ -2,10 +2,10 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaNpm } from "react-icons/fa6";
+import Image from "next/image";
 import {
   SiCss3,
   SiExpress,
-  SiFramer,
   SiGithub,
   SiHtml5,
   SiJavascript,
@@ -17,10 +17,11 @@ import {
   SiTypescript,
   SiVite,
   SiLaravel,
+  SiMui,
   SiPhp,
   SiRedux,
-  SiVuedotjs,
   SiFirebase,
+  SiNginx,
   SiReactrouter,
   SiReacthookform,
   SiReacttable,
@@ -33,7 +34,8 @@ import {
   SiSupabase,
   SiJest,
   SiDocker,
-  SiKotlin
+  SiKotlin,
+  SiXampp,
 } from "react-icons/si";
 
 export type SkillProps = {
@@ -51,7 +53,7 @@ export const STACKS: SkillProps = {
   TailwindCSS: <SiTailwindcss size={iconSize} className="text-cyan-400" />,
   JavaScript: <SiJavascript size={iconSize} className="text-yellow-400" />,
   TypeScript: <SiTypescript size={iconSize} className="text-blue-400" />,
-  "Vue.js": <SiVuedotjs size={iconSize} className="text-green-400" />,
+  "Material UI": <SiMui size={iconSize} className="text-sky-400" />,
   "React.js": <SiReact size={iconSize} className="text-cyan-400" />,
   "React Table": <SiReacttable size={iconSize} className="text-rose-600" />,
   "React Hook Form": (
@@ -63,7 +65,7 @@ export const STACKS: SkillProps = {
     <TbBrandFramerMotion size={iconSize} className="text-fuchsia-500" />
   ),
   Redux: <SiRedux size={iconSize} className="text-violet-500" />,
-  "Astro.js": <SiAstro size={iconSize} className="text-pink-500" />,
+  // "Astro.js": <SiAstro size={iconSize} className="text-pink-500" />,
   "Next.js": <SiNextdotjs size={iconSize} />,
   "Node.js": <SiNodedotjs size={iconSize} className="text-green-500" />,
   "Express.js": <SiExpress size={iconSize} />,
@@ -76,11 +78,26 @@ export const STACKS: SkillProps = {
   MySql: <SiMysql size={iconSize} className="text-blue-400" />,
   MongoDb: <SiMongodb size={iconSize} className="text-green-600" />,
   Firebase: <SiFirebase size={iconSize} className="text-yellow-500" />,
+  Nginx: <SiNginx size={iconSize} className="text-green-500" />,
   Supabase: <SiSupabase size={iconSize} className="text-emerald-500" />,
-  Jest: <SiJest size={iconSize} className="text-rose-400" />,
+  // Jest: <SiJest size={iconSize} className="text-rose-400" />,
   Docker: <SiDocker size={iconSize} className="text-blue-500" />,
   Npm: <FaNpm size={iconSize} className="text-red-500" />,
   Yarn: <SiYarn size={iconSize} className="text-sky-400" />,
-  bun: <SiBun size={iconSize} className="text-yellow-50" />,
+  // bun: <SiBun size={iconSize} className="text-yellow-50" />,
   Github: <SiGithub size={iconSize} />,
+  MySQL: <SiMysql className="text-[#4479A1]" />,
+  XAMPP: <SiXampp className="text-[#FB7A24]" />,
+  Clerk: (
+    <Image
+      className="dark:invert"
+      src="/icons/clerk.webp"
+      alt="Clerk"
+      width={20}
+      height={20}
+    />
+  ),
+  Convex: (
+    <Image src="/icons/convex.webp" alt="Convex" width={20} height={20} />
+  ),
 };

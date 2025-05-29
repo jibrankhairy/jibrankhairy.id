@@ -6,7 +6,12 @@ const Introduction = () => {
   return (
     <section className="space-y-2 bg-cover bg-no-repeat">
       <div className="text-3xl font-medium text-neutral-900 dark:text-neutral-50">
-        <h1>{t("intro")}</h1>
+        <h1>
+          {t("intro")}
+          <span className="animate-waving-hand inline-block origin-bottom text-3xl">
+            👋
+          </span>
+        </h1>
       </div>
 
       <div className="space-y-4">

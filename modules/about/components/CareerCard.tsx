@@ -35,18 +35,26 @@ const CareerCard = ({
   const startDate = new Date(start_date);
   const endDate = end_date ? new Date(end_date) : new Date();
 
-  const durationYears = differenceInYears(endDate, startDate);
-  const durationMonths = differenceInMonths(endDate, startDate) % 12;
+  const totalMonths =
+    (endDate.getFullYear() - startDate.getFullYear()) * 12 +
+    (endDate.getMonth() - startDate.getMonth()) +
+    1;
+
+  const durationYears = Math.floor(totalMonths / 12);
+  const durationMonths = totalMonths % 12;
 
   const yearText =
     locale == "en" ? `year${durationYears > 1 ? "s" : ""}` : "tahun";
+
+  const monthText =
+    locale == "en" ? `month${durationMonths > 1 ? "s" : ""}` : "bulan";
 
   let durationText = "";
   if (durationYears > 0) {
     durationText += `${durationYears} ${yearText}`;
   }
   if (durationMonths > 0 || durationYears === 0) {
-    durationText += `${durationMonths} Month${durationMonths > 1 ? "s" : ""}`;
+    durationText += `${durationText ? " " : ""}${durationMonths} ${monthText}`;
   }
 
   const hideText = locale == "en" ? "Hide" : "Sembunyikan";

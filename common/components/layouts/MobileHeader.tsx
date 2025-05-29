@@ -20,15 +20,21 @@ const MobileHeader = () => {
   return (
     <div className="flex flex-col rounded-b-md px-4 py-4 shadow-sm lg:hidden">
       <div
-        className={`flex w-full justify-between ${isOpen ? "items-start" : "items-center"}`}
+        className={clsx(
+          "flex w-full justify-between",
+          isOpen ? "items-start" : "items-center",
+        )}
       >
         <div
-          className={`flex ${isOpen ? "flex-col space-y-3" : "flex-row space-x-3"}`}
+          className={clsx(
+            "flex",
+            isOpen ? "flex-col space-y-3" : "flex-row space-x-3",
+          )}
         >
           <div className="z-10 w-max rounded-full border-2 border-white shadow-md dark:border-neutral-800">
             <Image
-              src={"/images/satria.jpg"}
-              alt="profile"
+              src="/images/jibran.jpg"
+              alt="Jibran Khairy Akram"
               width={isOpen ? 80 : imageSize * 0.9}
               height={isOpen ? 80 : imageSize * 0.9}
               rounded="rounded-full"
@@ -37,7 +43,7 @@ const MobileHeader = () => {
           <div className="mt-1 flex items-center gap-2">
             <Link href="/" passHref>
               <h2 className="flex-grow whitespace-nowrap text-lg font-medium lg:text-xl">
-                Satria Bahari
+                Jibran Khairy Akram
               </h2>
             </Link>
             <Tooltip title="Verified">
@@ -45,6 +51,7 @@ const MobileHeader = () => {
             </Tooltip>
           </div>
         </div>
+
         {isMobile && (
           <div
             className={clsx(
@@ -58,9 +65,9 @@ const MobileHeader = () => {
           </div>
         )}
       </div>
+
       {isMobile && (
-        // <AnimatePresence>{isOpen && <MobileMenu />}</AnimatePresence>
-        <>{isOpen && <MobileMenu />}</>
+        <AnimatePresence>{isOpen && <MobileMenu />}</AnimatePresence>
       )}
     </div>
   );

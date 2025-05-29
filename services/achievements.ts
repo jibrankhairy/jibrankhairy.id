@@ -24,6 +24,7 @@ export const getAchievementsData = async ({
   const { data, error } = await query;
 
   if (error) {
+    console.error("Supabase error:", error.message);
     throw new Error(error.message);
   }
 

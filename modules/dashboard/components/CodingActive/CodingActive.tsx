@@ -60,7 +60,7 @@ const CodingActive = () => {
       <SectionSubHeading>
         {t("wakatime.sub_title")}
         <Link
-          href="https://wakatime.com/@satriabahari"
+          href="https://wakatime.com/@jibrankhairy"
           target="_blank"
           className="text-sm text-neutral-600 hover:text-neutral-800 dark:text-neutral-500 dark:hover:text-neutral-400"
         >
