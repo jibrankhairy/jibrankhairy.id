@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : process.env.DOMAIN || "",
+      : process.env.DOMAIN || "https://jibrankhry-id.vercel.app",
   ),
   description: METADATA.description,
   keywords: METADATA.keyword,
@@ -42,7 +42,7 @@ const RootLayout = async ({
   params: { locale: string };
 }>) => {
   const messages = await getMessages();
-  const session = await getServerSession();
+  // const session = await getServerSession();
 
   return (
     <html lang={locale} suppressHydrationWarning>
