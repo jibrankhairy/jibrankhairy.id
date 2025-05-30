@@ -11,7 +11,7 @@ import Layouts from "@/common/components/layouts";
 import ThemeProviderContext from "@/common/stores/theme";
 import NextAuthProvider from "@/SessionProvider";
 import { METADATA } from "@/common/constants/metadata";
-import { onestSans } from "@/common/styles/fonts";
+// import { onestSans } from "@/common/styles/fonts";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -46,15 +46,22 @@ const RootLayout = async ({
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <Script
         defer
         src="https://cloud.umami.is/script.js"
         data-website-id="8e2c9f27-a12b-48ca-8130-808ebe377aca"
       />
       {/* Tambahkan class background default + dark mode fallback di body */}
-      <body
+      {/* <body
         className={`${onestSans.className} bg-white text-black dark:bg-neutral-900 dark:text-white`}
-      >
+      > */}
+      <body className="font-onest bg-white text-black dark:bg-neutral-900 dark:text-white">
         <NextTopLoader
           color="#05b6d3"
           initialPosition={0.08}
