@@ -9,7 +9,7 @@ import "./globals.css";
 
 import Layouts from "@/common/components/layouts";
 import ThemeProviderContext from "@/common/stores/theme";
-import NextAuthProvider from "@/SessionProvider";
+// import NextAuthProvider from "@/SessionProvider";
 import { METADATA } from "@/common/constants/metadata";
 // import { onestSans } from "@/common/styles/fonts";
 
@@ -73,11 +73,11 @@ const RootLayout = async ({
           shadow="0 0 10px #05b6d3,0 0 5px #45c6c0"
         />
         <NextIntlClientProvider messages={messages}>
-          <NextAuthProvider session={session}>
-            <ThemeProviderContext>
-              <Layouts>{children}</Layouts>
-            </ThemeProviderContext>
-          </NextAuthProvider>
+          {/* <NextAuthProvider session={session}> */}
+          <ThemeProviderContext>
+            <Layouts>{children}</Layouts>
+          </ThemeProviderContext>
+          {/* </NextAuthProvider> */}
         </NextIntlClientProvider>
         <Analytics />
       </body>
